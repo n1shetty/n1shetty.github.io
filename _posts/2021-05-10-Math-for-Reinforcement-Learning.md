@@ -6,7 +6,5 @@ published: true
 In this post I will list and explain some results from probability that will help with the derivations of the Bellman equations for the state and action value functions.
 
 
-$ a = B^2 + \pi$
+$$ a = b*3 + \pi $$
 
-
-From the next year
