@@ -6,7 +6,7 @@
 name: Nishanth Shetty
 
 # Short bio or description (displayed in the header)
-description: Student
+description: A blog about math, control theory and artificial intelligence.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/41098272?s=60&v=4
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: n1shetty
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/nishanth-shetty-273600149/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdH3UtwihSAaSvZXDoeeN0Q%3D%3D
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -67,7 +67,7 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
-theme: hacker
+
 #remote_theme: longpdo/neumorphism 
 # Set the Sass partials directory, as we're using @imports
 sass:
