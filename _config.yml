@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: n1shetty
   instagram:
-  linkedin: https://www.linkedin.com/in/nishanth-shetty-273600149/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdH3UtwihSAaSvZXDoeeN0Q%3D%3D
+  linkedin: nishanth-shetty-273600149
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -68,7 +68,7 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-#remote_theme: longpdo/neumorphism 
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
