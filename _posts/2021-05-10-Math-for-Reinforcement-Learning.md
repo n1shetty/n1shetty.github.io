@@ -22,4 +22,4 @@ $$ v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \mathbb{E}_{\pi} [ R_{t+1} + 
 $$ q_{\pi}(s, a) = \mathbb{E}_{\pi} [G_{t}|S_t = s, A_t=a] = \mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a]$$
 
 From e\eqref{eq:one} we get
-$$ v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \sum_a \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] = \sum_a \pi(a|s)q_{\pi}(s, a)$$
+$$ v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \sum_{a} \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] = \sum_{a} \pi(a|s)q_{\pi}(s, a)$$
