@@ -9,7 +9,7 @@ In this post I list some results from probability and derive the Bellman equatio
 $$ \mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z] p_{Z|Y}(z|y)$$
 
 $$ \begin{equation}
-\mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z] p_{Z|Y}(z|y) \label{eq:one}
+\mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z] p_{Z|Y}(z|y)  \tag{eqnt}\label{eq:one}
 \end{equation}
 $$
 
