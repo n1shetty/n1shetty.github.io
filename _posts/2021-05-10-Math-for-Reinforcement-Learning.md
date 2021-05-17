@@ -31,8 +31,8 @@ $$
 
 From equations \eqref{eq:one}, \eqref{eq:three} and \eqref{eq:four}, we get
 $$ \begin{aligned}
-v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] \\
-         & = \sum_{a} \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] \\
-         & = \sum_{a} \pi(a|s)q_{\pi}(s, a)
+v_{\pi}(s)& = & \mathbb{E}_{\pi} [G_{t}|S_t = s] \\
+          & = & \sum_{a} \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] \\
+          & = & \sum_{a} \pi(a|s)q_{\pi}(s, a)
 \end{aligned}
 $$
