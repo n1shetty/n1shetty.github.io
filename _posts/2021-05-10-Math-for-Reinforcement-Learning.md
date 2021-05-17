@@ -11,30 +11,28 @@ $$ \begin{equation}
 \end{equation}
 $$
 
-$$ \begin{equation}
-\mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z] p_{Z|Y}(z|y)  \tag{2}\label{eq:two}
-\end{equation}
-$$
 
 $$ \begin{equation}
-\mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z, A=a] p_{Z, A|Y}(z, a|y) \tag{3}\label{eq:three}
+\mathbb{E}[X|Y=y] = \sum_{z} \mathbb{E}[X|Y=y, Z=z, A=a] p_{Z, A|Y}(z, a|y) \tag{2}\label{eq:two}
 \end{equation}
 $$
 
 $$ G_t = R_{t+1} + \gamma G_{t+1} $$
 
 $$ \begin{equation}
-v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s] \tag{4}\label{eq:four}
+v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s] \tag{3}\label{eq:three}
 \end{equation}
 $$
 
 $$ \begin{equation}
-q_{\pi}(s, a) = \mathbb{E}_{\pi} [G_{t}|S_t = s, A_t=a] = \mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] \tag{5}\label{eq:five}
+q_{\pi}(s, a) = \mathbb{E}_{\pi} [G_{t}|S_t = s, A_t=a] = \mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] \tag{4}\label{eq:four}
 \end{equation}
 $$
 
-From equations \eqref{eq:two}, \eqref{eq:four} and \eqref{eq:five}, we get
-$$ \begin{dmath}
-v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] = \sum_{a} \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] = \sum_{a} \pi(a|s)q_{\pi}(s, a)
-\end{dmath}
+From equations \eqref{eq:one}, \eqref{eq:three} and \eqref{eq:four}, we get
+$$ \begin{multline}
+v_{\pi}(s) = \mathbb{E}_{\pi} [G_{t}|S_t = s] \\
+= \sum_{a} \pi(a|s)\mathbb{E}_{\pi} [ R_{t+1} + \gamma G_{t+1}|S_t = s, A_t = a] \\
+= \sum_{a} \pi(a|s)q_{\pi}(s, a)
+\end{multline}
 $$
