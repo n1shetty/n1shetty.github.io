@@ -3,7 +3,7 @@ published: true
 ---
 ## Probability Primer
 
-In this post I list some results from probability and derive the Bellman equations for the state and action value functions. The main motivation for this post was my own struggle with the derivations given in Sutton and Barto's book Reinforcement Learning: An Introduction. I had the help of this answer : <https://math.stackexchange.com/questions/2912151/derivation-of-bellman-equation-for-state-value-function-vs>
+In this post I list some results from probability and derive the Bellman equations for the state and action value functions. The main motivation for this post was my own struggle with the derivations given in Sutton and Barto's book Reinforcement Learning: An Introduction. This answer helped me understand how to proceed : <https://math.stackexchange.com/questions/2912151/derivation-of-bellman-equation-for-state-value-function-vs>
 
 
 $$ \begin{equation} 
